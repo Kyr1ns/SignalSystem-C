@@ -8,43 +8,43 @@ kelompok 1 (arvvy)
 - Oky
 
 kelompok 2 
- •  Fajar
- •  Zidan
- •  Ryan
- •  Azka
+- Fajar
+- Zidan
+- Ryan
+- Azka
 
 kelompok 3
-• Faisal
-• Najla
-• Kia
+- Faisal
+- Najla
+- Kia
 
 Kelompok 4
-• Hartarto
-• Akbar
-• Damar
-• Ridwan
+- Hartarto
+- Akbar
+- Damar
+- Ridwan
 
 Kelompok 5
-• Yusuf
-• Adam
-• Henkel
-• Ghozi
+- Yusuf
+- Adam
+- Henkel
+- Ghozi
 
 Kelompok 6
-• ama
-• shafira
-• septi
+- Ama
+- Shafira
+- Septi
 
 Kelompok 7
-• Irfandi
-• Zulva
-• Tatag
-• Owen
+- Irfandi
+- Zulva
+- Tatag
+- Owen
 
 Kelompok 8
-• Daffa
-• Rafael
-• Arya
+- Daffa
+- Rafael
+- Arya
 
 Kelompok 9
 
@@ -52,5 +52,5 @@ Kelompok 10
 - Satria
 - Memet
 - Mada
-- talitha
-- meisya
+- Talitha
+- Meisya
