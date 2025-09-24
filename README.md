@@ -53,4 +53,4 @@ Kelompok 10
 - Memet
 - Mada
 - Talitha
-- Meisya
+- Meisya
