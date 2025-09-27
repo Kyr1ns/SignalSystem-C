@@ -41,6 +41,6 @@ def fourier_series(A,F,S,n):
     plt.xlabel("$x$")
     plt.ylabel("$y=f(x)$")
     plt.legend(loc='best',prop={'size':10})
-    plt.title("Sqaure wave signal analysis by Fouries series")
+    plt.title(f"Sqaure wave signal analysis by Fouries series n={terms}")
     plt.savefig("fs_square.png")
     plt.show()
