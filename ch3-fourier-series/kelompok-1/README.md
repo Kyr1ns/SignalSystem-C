@@ -40,28 +40,28 @@ Dalam Audacity, efek EQ dan filter digunakan untuk memperbaiki kualitas audio, m
 1. Grafik Plot Spectrum
 
 <div style="text-align: center;">
-  <img src="./assets/graph/piano/piano-plot-spectrum.png" width="50%" height="50%">
+  <img src="./assets/graph/piano/piano-plot-spectrum.png" width="30%" height="30%">
 </div>
 
-2. Grafik EQ
+2. Grafik EQ (Bass Boost)
 
 <div style="text-align: center;">
-  <img src="" width="50%" height="50%">
+  <img src="./assets/graph/piano/piano-plot-eq.png" width="30%" height="30%">
 </div>
-
 3. Grafik Low-Pass
 
 <div style="text-align: center;">
-  <img src="./assets/graph/piano/piano-low-pass.png" width="50%" height="50%">
+  <img src="./assets/graph/piano/piano-low-pass.png" width="30%" height="30%">
 </div>
 
 4. Grafik High-Pass
 
 <div style="text-align: center;">
-  <img src="./assets/graph/piano/piano-high-pass.png" width="50%" height="50%">
+  <img src="./assets/graph/piano/piano-high-pass.png" width="30%" height="30%">
 </div>
 
 #### Pembahasan
+Efek EQ Bass Boost pada suara piano meningkatkan komponen frekuensi rendah (bass). Hasilnya, suara piano terdengar lebih “berat” dan hangat, dengan nada-nada rendah menjadi lebih dominan. Pada grafik spektrum, amplitudo di area frekuensi rendah naik, sedangkan frekuensi tinggi tetap atau sedikit berkurang. Efek ini cocok untuk mempertegas karakter bass pada instrumen piano.
 
 ### Sampel 2 : Suara Rekaman
 
@@ -70,30 +70,29 @@ Dalam Audacity, efek EQ dan filter digunakan untuk memperbaiki kualitas audio, m
 1. Grafik Plot Spectrum
 
 <div style="text-align: center;">
-  <img src="./assets/graph/rekaman/rekaman-plot-spektrum.png" width="50%" height="50%">
+  <img src="./assets/graph/rekaman/rekaman-plot-spektrum.png" width="30%" height="30%">
 </div>
 
-2. Grafik EQ
+2. Grafik EQ (Walkie-Talkie)
 
 <div style="text-align: center;">
-  <img src="" width="50%" height="50%">
+  <img src="./assets/graph/rekaman/rekaman-plot-eq.png" width="30%" height="30%">
 </div>
 
 3. Grafik Low-Pass
 
 <div style="text-align: center;">
-  <img src="./assets/graph/rekaman/rekaman-low-pass.png" width="50%" height="50%">
+  <img src="./assets/graph/rekaman/rekaman-low-pass.png" width="30%" height="30%">
 </div>
 
 4. Grafik High-Pass
 
 <div style="text-align: center;">
-  <img src="./assets/graph/rekaman/rekaman-high-pass.png" width="50%" height="50%">
+  <img src="./assets/graph/rekaman/rekaman-high-pass.png" width="30%" height="30%">
 </div>
 
 #### Pembahasan
-
-
+Efek EQ Walkie-Talkie biasanya memotong frekuensi rendah dan tinggi, hanya menyisakan frekuensi menengah. Suara hasil rekaman menjadi “tipis” dan mirip suara komunikasi radio, dengan kejernihan vokal di tengah tetapi kehilangan detail bass dan treble. Pada grafik spektrum, hanya frekuensi menengah yang tampak menonjol, sedangkan area rendah dan tinggi melemah.
 
 ### Sampel 3 : Suara Lagu JJ
 
@@ -101,21 +100,30 @@ Dalam Audacity, efek EQ dan filter digunakan untuk memperbaiki kualitas audio, m
 
 1. Grafik Plot Spectrum
 
-<img src="./assets/graph/lagu/lagu-plot-spectrum.png" width="50%" height="50%">
+<div style="text-align: center;">
+  <img src="./assets/graph/lagu/lagu-plot-spectrum.png" width="30%" height="30%">
+</div>
 
-2. Grafik EQ
+2. Grafik EQ (AM Radio)
 
-
+<div style="text-align: center;">
+  <img src="./assets/graph/lagu/lagu-plot-eq.png" width="30%" height="30%">
+</div>
 
 3. Grafik Low-Pass
 
-<img src="./assets/graph/lagu/lagu-low-pass.png" width="50%" height="50%">
+<div style="text-align: center;">
+  <img src="./assets/graph/lagu/lagu-low-pass.png" width="30%" height="30%">
+</div>
 
 4. Grafik High-Pass
 
-<img src="./assets/graph/lagu/lagu-high-pass.png" width="50%" height="50%">
+<div style="text-align: center;">
+  <img src="./assets/graph/lagu/lagu-high-pass.png" width="30%" height="30%">
+</div>
 
 #### Pembahasan
+Efek EQ AM Radio meniru karakteristik suara radio lama, dengan rentang frekuensi yang sempit dan dominasi frekuensi menengah. Suara lagu menjadi “nostalgic” dan kurang detail, cocok untuk efek retro. Pada grafik spektrum, frekuensi rendah dan tinggi sangat berkurang, hanya frekuensi menengah yang terlihat jelas.
 
 ## Fourier Series Grafik
 
@@ -169,9 +177,9 @@ $$
 x(t) = \frac{2}{\pi} \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n} \sin\left( \frac{2\pi n}{T} t \right)
 $$
 
-Dari persamaan tersebut terlihat bahwa gelombang sawtooth tersusun dari harmonik sinusoidal ganjil dan genap, dengan amplitudo menurun sebanding dengan $ \frac{1}{n} $
+Dari persamaan tersebut terlihat bahwa gelombang sawtooth tersusun dari harmonik sinusoidal ganjil dan genap, dengan amplitudo menurun sebanding dengan $\frac{1}{n}$
 
-Pada kode di bawah, kita akan membuat gelombang atau grafik sawtooth menggunakan python dengan matplotlib. Serta kita bisa menggunakan bantuan SciPy untuk membuat gelombang sawtooth dengan function $ sawtooth() $
+Pada kode di bawah, kita akan membuat gelombang atau grafik sawtooth menggunakan python dengan matplotlib. Serta kita bisa menggunakan bantuan SciPy untuk membuat gelombang sawtooth dengan function $sawtooth()$
 
 
 ```python
