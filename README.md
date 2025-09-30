@@ -2,11 +2,11 @@
 Kumpulan Code dan Paper Sinsys kelas C
 
 kelompok 1 (arvvy)
-- Hanif
-- Nashr
-- Firman
-- Nashr
-- Oky
+- Hanif ()
+- Nashr (87)
+- Firman (81)
+- Faisal 
+- Oky (107)
 
 kelompok 2 
 - Fajar
